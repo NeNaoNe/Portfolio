@@ -1,0 +1,173 @@
+.header {
+    height: 80vh;
+    background-image: url(../images/Niagarafalls.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 45px 80px;
+    margin:auto;
+    border: 4px double #2f0d34;
+    letter-spacing: 0.1em;
+}
+
+.header span {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+}
+
+.introduction {
+    background-color: #c3e9ff;
+
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.title:before, .title:after {
+    border-top: 1px solid;
+    content: "";
+    width: 3em;
+}
+
+
+.title:before {
+    margin-right: 1em;
+}
+
+.title:after {
+    margin-left: 1em;
+}
+
+h3 {
+    text-align:center;
+    padding-bottom: 1rem;
+}
+
+.profile_img {
+    width: 175px;
+    height: 175px;
+    margin: 0 15px 10px 0;
+}
+
+.introduction {
+    padding: 50px;
+}
+
+.skill_box_1 , .skill_box_2 , .skill_box_3 {
+    border: 4px solid #2f0d34;
+}
+
+.skill_box_1 , .skill_box_2 {
+    margin-right: 4%;
+}
+
+.skills {
+    padding-bottom: 50px;
+    background-color: #fff0f5;
+}
+
+.works {
+    padding-bottom: 50px;
+    background-color: #c3e9ff;
+}
+
+.contact {
+    padding-bottom: 50px;
+    background-color: pink;
+}
+
+.contact_btn {
+    text-align: center;
+}
+
+.contact_btn a {
+    border: 1px solid #2268bc;
+    border-radius: 30px;
+    padding: 10px 90px;
+    display: inline-block;
+    margin: 30px 0;
+    color: #2268bc;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.contact_btn a:hover {
+    background-color: #bbcdee;
+}
+
+.work_box_1 , .work_box_2 , .work_box_3 {
+    border: 4px solid #2f0d34;
+}
+
+.work_box_1 , .work_box_2 {
+    margin-right: 4%;
+}
+
+.work_box_1 {
+    position: relative;
+}
+
+.app_1 {
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+.work_box_2 {
+    position: relative;
+}
+
+.app_2 {
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+.work_box_3 {
+    position: relative;
+    background-color: white;
+}
+
+.app_3 {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+.work_title_1 , .work_title_2 {
+    margin-right: 4%;
+}
+
+.work_title_1 , .work_title_2 , .work_title_3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.copyright {
+    background-color: #a9a9a9;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
+
